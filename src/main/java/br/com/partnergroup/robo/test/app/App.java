@@ -19,7 +19,7 @@ public class App {
 	
 	/*
 	 * Já esta incluso no código o servidor de banco de dados H2, que é iniciado junto com a aplicação;
-	 * É possível acessar o banco de dados via browser pelo endereço: http://localhost:9099 (somente enquanto a aplicação entiver
+	 * É possível acessar o banco de dados via browser pelo endereço: http://localhost:9099 (somente enquanto a aplicação estiver
 	 * em execução), usando a string de conexão: jdbc:h2:mem:testdb;DB_CLOSE_DELAY=-1
 	 * É recomendável obter a pagina usando a biblioteca do apache hc: https://hc.apache.org/httpcomponents-client-4.5.x/index.html
 	 * Obs.: O banco de dados é em memória. Sempre que a aplicação terminar, os dados serão perdidos. 
