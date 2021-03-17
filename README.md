@@ -1,12 +1,13 @@
 # Teste para recrutamento - JAVA
 
-  ## Objetivo do teste:  Efetuar uma consulta no site receita (via código), exibir o status da situação cadastral  e salvar o html em banco
+## Objetivo do teste:  Efetuar uma consulta no site receita (via código), exibir o status da situação cadastral  e salvar o html em banco
 
-    ### Execução do teste
-      1. Automatizar a extração da consulta à página: (https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/ConsultaPublicaSonoro.asp?CPF=&NASCIMENTO=) 
-      2. Trabalhar o Html, removendo todas as tags (somente as tags, não o texto dentro delas). Usar expressões regulares;
-      3. Salvar o conteúdo do html na tabela tb_html (esta tabela tem 2 colunas: id int auto_increment e html varchar).
-      4. Exibir a situação cadastral em um **JOptionPane** 
+### Execução do teste
+
+  1. Automatizar a extração da consulta à página: (https://servicos.receita.fazenda.gov.br/servicos/cpf/consultasituacao/ConsultaPublicaSonoro.asp?CPF=&NASCIMENTO=) 
+  2. Trabalhar o Html, removendo todas as tags (somente as tags, não o texto dentro delas). Usar expressões regulares;
+  3. Salvar o conteúdo do html na tabela tb_html (esta tabela tem 2 colunas: id int auto_increment e html varchar).
+  4. Exibir a situação cadastral em um **JOptionPane** 
 
 ### Recomendações
 * Utilizar um proxy para interceptar as cominucações entre o servidor (https://www.telerik.com/download/fiddler)
